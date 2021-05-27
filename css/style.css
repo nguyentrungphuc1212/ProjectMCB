@@ -356,11 +356,25 @@ a {
   .sticky-wrapper .shrink {
     padding-top: 0px !important;
     padding-bottom: 0px !important; }
+    
+    .section-content{
+      width: 100%;
+      position: absolute;
+      top: 81px;
+      padding-top: 50px;
+    }
+    .section-content img.images{
+      width: 100%;
+      box-shadow: 6px 6px 2px 1px rgb(218 241 255 / 20%);
+    }
+  
+    .section-content h2, p{
+      color: #000;
+    }
     @media (max-width: 991.98px) {
       .sticky-wrapper .shrink {
         padding-top: 30px !important;
         padding-bottom: 30px !important; } }
-
 
 
 
