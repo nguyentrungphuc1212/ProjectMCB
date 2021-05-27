@@ -523,3 +523,29 @@ h5 {
 .copyright-text a {
     color: #bfbfbf;
 }
+
+
+#sidemenu {
+    list-style: none;
+    display: none;
+    
+}
+
+    
+.site-menu-body > li > a {
+    color: white;
+    
+    
+}
+
+
+
+
+.site-menu-body {
+    display: flex;
+}
+
+#site-menu-header {
+    display: none;
+    transition: .25s;
+}

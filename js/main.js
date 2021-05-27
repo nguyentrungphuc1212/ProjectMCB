@@ -89,12 +89,13 @@ $(function() {
 
 function onClickMenu() {
 	document.getElementById("sidemenu").style.display = "block";
-	document.getElementById("sidemenu").setAttribute('class', 'test');
+	document.getElementById("menu").style.display = "none";
+	document.getElementById("site-menu-header").style.display = "block";
 }
 
 
 function onClickMenu2() {
 	document.getElementById("sidemenu").style.display = "none";
-	
-
+	document.getElementById("menu").style.display = "block";
+	document.getElementById("site-menu-header").style.display = "none";
 }
